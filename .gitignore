@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+uv.lock
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Simulation builds
+sim_build/
+sim_build_*/
+*.vcd
+*.fst
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation folder (contains large framework copy)
+skid-buffer-eval/
+
